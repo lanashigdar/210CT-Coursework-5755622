@@ -1,0 +1,69 @@
+/*Write the pseudocode and code for a function that reverses the words in a sentence. Input: "This is
+awesome" Output: "awesome is This". Give the Big O notation.*/
+
+
+#include <iostream>
+
+using namespace std;
+
+int W3_1()
+{
+   char s[];
+   char *temp = s;
+   reverseString(s);
+
+   cout << "enter sentence ";
+   cin >> s;
+
+
+void reverse(char *sentence, int starting, int ending)
+{
+    char i = starting;
+    char j = ending;
+    char temp;
+
+    while (i <= j)
+    {
+        temp = sentence[i];
+        sentence[i] = sentence[j];
+        sentence[j] = temp;
+        i++;
+        j--;
+    }
+}
+void reverseSentence(char *s)
+{
+    int length = strlen(s), i = 0, ending;
+    for (i = 0, i <= length; i++)
+    {
+        if(s[i] == ' ' || s[i] == '\0')
+        {
+            end = i-1;
+            reverse(s, starting, ending);
+            start = i+1;
+        }
+    }
+    reverse(s, 0, length-1);
+}
+int main(void) {
+    char s[] = "sentence here";
+    reverseSentence(s);
+    cout << s;
+    return 0;
+    }
+}
+
+   // string sentence[];
+
+   // cout << "input sentence ";
+    //cin >> sentence;
+
+   // reverseSentence
+
+    //move placement of string
+    //print new sentence
+
+//reverse the individual words e.g. "i ekil siht margorp yrev hcum"
+//reverse whole string from start to end e.g. "much very program this like i"
+
+//http://ideone.com/dfQKD8

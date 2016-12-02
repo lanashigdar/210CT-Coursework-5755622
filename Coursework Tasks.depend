@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1480637696 source:e:\210ct\coursework tasks\w1-1.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
+1480637702 source:e:\210ct\coursework tasks\w1-2.cpp
+	<iostream>
+
+1480645766 source:e:\210ct\coursework tasks\w2-1.cpp
+	<iostream>
+	<cmath>
+
+1480169986 source:e:\210ct\coursework tasks\w2-2.cpp
+	<iostream>
+
+1480637714 source:e:\210ct\coursework tasks\w2-3.cpp
+	<iostream>
+
+1480645784 source:e:\210ct\coursework tasks\w3-1.cpp
+	<iostream>
+	<string>
+
+1480645804 source:e:\210ct\coursework tasks\w3-2.cpp
+	<iostream>
+
+1480645814 source:e:\210ct\coursework tasks\w3-3.cpp
+	<iostream>
+	<string>
+
+1480637736 source:e:\210ct\coursework tasks\w4-1.cpp
+	<iostream>
+
+1480647918 source:e:\210ct\coursework tasks\main.cpp
+
+1480647318 source:e:\210ct\coursework tasks\w6-1.cpp
+	<iostream>
+	<stack>
+
+1480637746 source:e:\210ct\coursework tasks\w5-1.cpp
+	<iostream>
+
+1480648012 source:e:\210ct\coursework tasks\w5-2.cpp
+	<iostream>
+
+1480641160 source:e:\210ct\coursework tasks\w7-1.cpp
+	<iostream>
+	<stack>
+	<queue>
+	<fstream>
+
+1480641830 source:e:\210ct\coursework tasks\w8-1.cpp
+	<iostream>
+	<limits>
+
